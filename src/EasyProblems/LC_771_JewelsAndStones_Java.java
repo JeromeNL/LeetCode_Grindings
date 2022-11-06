@@ -1,6 +1,6 @@
 package EasyProblems;
 
-public class LT_771_JewelsAndStones_Java {
+public class LC_771_JewelsAndStones_Java {
     public int numJewelsInStones(String jewels, String stones) {
         int counter = 0;
         for(int i = 0; i < jewels.length(); i++){

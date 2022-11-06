@@ -1,6 +1,6 @@
 package EasyProblems;
 
-public class LT_1470_ShuffleTheArray_Java {
+public class LC_1470_ShuffleTheArray_Java {
 
     public int[] shuffle(int[] nums, int n) {
         int[] numbers = new int[nums.length];

@@ -1,9 +1,9 @@
 package EasyProblems;
 
-public class LT_1603_DesignParkingSystem_Java {
+public class LC_1603_DesignParkingSystem_Java {
     private int[] places;
 
-    public LT_1603_DesignParkingSystem_Java(int big, int medium, int small) {
+    public LC_1603_DesignParkingSystem_Java(int big, int medium, int small) {
         places = new int[]{big, medium, small};
     }
 
