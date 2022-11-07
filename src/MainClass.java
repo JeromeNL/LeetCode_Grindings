@@ -1,11 +1,9 @@
-import EasyProblems.LC_1281_SubtractOfInteger_Java;
-import EasyProblems.LC_1431_KidsGreatestCandies_Java;
+import EasyProblems.LC_1365_HowManySmaller_Java;
 
 public class MainClass {
 
     public static void main(String[] args) {
-        LC_1281_SubtractOfInteger_Java test = new LC_1281_SubtractOfInteger_Java();
-        test.subtractProductAndSum(85);
-
+        LC_1365_HowManySmaller_Java test = new LC_1365_HowManySmaller_Java();
+        test.smallerNumbersThanCurrent(new int[]{6,5,4,8});
     }
 }
