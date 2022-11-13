@@ -1,12 +1,10 @@
-import EasyProblems.LC_1365_HowManySmaller_Java;
-import EasyProblems.LC_1512_NumberOfPairs_Java;
-import EasyProblems.LC_1528_ShuffleString_Java;
-import EasyProblems.LC_1678_GoalParser_Java;
+import EasyProblems.LC_1773_CountItems_Java;
 
 public class MainClass {
 
     public static void main(String[] args) {
-        LC_1528_ShuffleString_Java test = new LC_1528_ShuffleString_Java();
-        test.restoreString("codeleet", new int[]{4,5,6,7,0,2,1,3});
+
+        LC_1773_CountItems_Java test = new LC_1773_CountItems_Java();
+        test.countMatches([["phone","blue","pixel"],["computer","silver","lenovo"],["phone","gold","iphone"]], ruleKey = "color", ruleValue = "silver")
     }
 }
