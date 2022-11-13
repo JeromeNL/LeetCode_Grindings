@@ -4,7 +4,6 @@ import java.util.List;
 
 public class LC_1773_CountItems_Java {
     public int countMatches(List<List<String>> items, String ruleKey, String ruleValue) {
-
         int counter = 0;
         String itemValue = "";
 
@@ -20,14 +19,10 @@ public class LC_1773_CountItems_Java {
                         itemValue = product.get(2);
                         break;
                 }
-
                 if (itemValue.equalsIgnoreCase(ruleValue)) {
                     counter++;
                 }
-
-
         }
-        System.out.println("Counter: " + counter);
         return counter;
     }
 }
