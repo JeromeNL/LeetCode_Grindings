@@ -1,9 +1,17 @@
 import EasyProblems.*;
+import MediumProblems.LC_1476_SubrectangleQueries_Java;
 
 public class MainClass {
 
     public static void main(String[] args) {
-        LC_1941_CheckEqualOccurences test = new LC_1941_CheckEqualOccurences();
-        System.out.print(test.areOccurrencesEqual("abbcac"));
+        int[][] testArray =
+                {{3, 2, 1},
+                 {2, 2, 2},
+                 {1, 1, 1}};
+
+        LC_1476_SubrectangleQueries_Java test = new LC_1476_SubrectangleQueries_Java(testArray);
+
+        System.out.print(test.getValue(2,1));
+
 }
 }
