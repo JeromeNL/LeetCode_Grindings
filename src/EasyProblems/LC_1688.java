@@ -9,11 +9,11 @@ public class LC_1688 {
         while(teamsLeft > 1){
             if(teamsLeft % 2 == 1){
                 totalMatches += (teamsLeft -1) /2;
-                teamsLeft = teamsLeft - ((teamsLeft - 1) / 2);
+                teamsLeft -= (teamsLeft - 1) / 2;
             }
             else{
                 totalMatches += teamsLeft / 2;
-                teamsLeft = teamsLeft - (teamsLeft /2);
+                teamsLeft -= teamsLeft /2;
             }
         }
         return totalMatches;
