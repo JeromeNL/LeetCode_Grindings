@@ -1,8 +1,5 @@
 import EasyProblems.LC_125_ValidPalindrome;
-import MediumProblems.LC_128_LongestSequence;
-import MediumProblems.LC_238_ProductOfArray;
-import MediumProblems.LC_347_TopKFrequentElements;
-import MediumProblems.LC_49_GroupAnagrams;
+import MediumProblems.*;
 
 public class MainClass {
 
@@ -11,8 +8,9 @@ public class MainClass {
 //        int[] arr = {100, 4, 200, 1, 3, 2};
 //        System.out.println( lc.longestConsecutive(arr));
 
-        LC_125_ValidPalindrome lc = new LC_125_ValidPalindrome();
-        lc.isPalindrome("A man, a plan, a canal: Panama");
+        LC_167_TwoSumII lc = new LC_167_TwoSumII();
+        int[] arr = {2,7,11,15};
+        lc.twoSum(arr, 9);
 
 
     }
