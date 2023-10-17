@@ -1,3 +1,4 @@
+import EasyProblems.LC_121_BuySellStock;
 import EasyProblems.LC_125_ValidPalindrome;
 import MediumProblems.*;
 
@@ -8,9 +9,9 @@ public class MainClass {
 //        int[] arr = {100, 4, 200, 1, 3, 2};
 //        System.out.println( lc.longestConsecutive(arr));
 
-        LC_167_TwoSumII lc = new LC_167_TwoSumII();
-        int[] arr = {2,7,11,15};
-        lc.twoSum(arr, 9);
+        LC_121_BuySellStock lc = new LC_121_BuySellStock();
+        int[] arr = {7,1,5,3,6,4};
+        lc.maxProfit(arr)
 
 
     }
