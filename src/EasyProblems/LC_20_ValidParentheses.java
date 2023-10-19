@@ -20,21 +20,21 @@ public class LC_20_ValidParentheses {
             }
 
             if(s.charAt(i) == ')'){
-                if(!stapel.firstElement().equals('(')){
+                if(!(stapel.firstElement() == ('('))){
                     return false;
                 }
                 stapel.pop();
             }
 
             if(s.charAt(i) == '}'){
-                if(!stapel.firstElement().equals('{')){
+                if(!(stapel.firstElement() == ('{'))){
                     return false;
                 }
                 stapel.pop();
             }
 
             if(s.charAt(i) == ']'){
-                if(!stapel.firstElement().equals('[')){
+                if(!(stapel.firstElement() == ('['))){
                     return false;
                 }
                 stapel.pop();
