@@ -14,7 +14,7 @@ public class MainClass {
 //        System.out.println(lc.lengthOfLongestSubstring("abcdabcdefgbccc"));
 
         LC_20_ValidParentheses lc = new LC_20_ValidParentheses();
-        lc.isValid("{[]}");
+        System.out.println(lc.isValid("{[]}"));
 
     }
 }
