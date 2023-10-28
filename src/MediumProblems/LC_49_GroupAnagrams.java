@@ -1,22 +1,34 @@
 package MediumProblems;
 
+import java.sql.Array;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 
 public class LC_49_GroupAnagrams {
-    public List<List<String>> groupAnagrams(String[] strs) {
-
-
-
-        // Index: 0, Hashmap<alfabet, aantal>
-        // Hashmap met aantal letters van ieder woord.
-        // Index houdt bij om welk woord het gaat.
-        // Compare alle hashmaps met elkaar.
-        //  Gelijk is toevoegen aan bestaande lijst
-        //  Anders nieuwe lijst toevogen aan de lijst met 'm erin.
-        // Toevoegen aan een lijst van lijsten.
-
-        return null;
-    }
+//    public List<List<String>> groupAnagrams(String[] strs) {
+//        HashMap<String, String> map = new HashMap<>();
+//
+//        for(int i = 0; i < strs.length; i++){
+//           char[] arr = strs[i].toCharArray();
+//           Arrays.sort(arr);
+//           String arrRes = String.valueOf(arr);
+//           map.put(strs[i], arrRes);
+//        }
+//
+//        List<List<String>> unique = new ArrayList<>();
+//
+//        map.forEach((key, value) ->{
+//            if(!unique.contains(value)){
+//                unique.add(value);
+//            }
+//        });
+//
+//
+//
+//        System.out.println(map);
+//        return null;
+//    }
 
 }
